@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filme - Netflix</title>
+    <link rel="shortcut icon" href="img/Logo-site.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+
+        .text{
+            height: 100vh;
+            padding-top: 100px;
+        }
+  
+        .text span {
+          display: inline-block;
+          color: #fff;
+          font-weight: 900;
+          font-size: 100px;
+          animation: bounce 1.2s ease-in-out infinite;
+          animation-delay: var(--delay);
+        }
+
+        @keyframes bounce {
+          0% {
+            transform: translateY(0);
+            color: rgb(199, 247, 255);
+          }
+          50% {
+            transform: translateY(-20px);
+            color: rgb(255, 198, 198);
+          }
+          100% {
+            transform: translateY(0);
+            color: rgb(209, 242, 255);
+          }
+        }
+      </style>
+</head>
+
+<body>
+
+<!--TOPO DA PAGINA, CABEÇARIO CONTENDO: LOGO/INICIO/SÉRIES/FILMES/(MINHA LISTA - APENAS NO PC) E TODOS OS LINKS REDIRECIONANDO PARA A PÁGINA PRINCIPAL-->
+
+    <header class="cabecario">
+        <ul class="cabecario__lista">
+            <li><img src="img/Nlogo.png" alt="Netflix logo" class="nlogo"><img src="img/Netflix_logo.png" alt="Netflix logo" class="cabecario__item container__logo sumir__mobile"></li>
+            <li class="cabecario__item"><a href="principal.html" class="cabecario__link">Início</a></li>
+            <li class="cabecario__item"><a href="principal.html" class="cabecario__link">Séries</a></li>
+            <li class="cabecario__item"><a href="principal.html" class="cabecario__link">Filmes</a></li>
+            <li class="cabecario__item mobile__sumir"><a href="principal.html" class="cabecario__link">Minha lista</a></li>
+        </ul>
+    </header>
+
+<!--VÍDEO PARA SER ASSISTIDO-->
+
+    <section class="filme">
+        <div class="text">
+            <span style="--delay: 0.1s">E</span>
+            <span style="--delay: 0.2s">m </span>
+            <span style="--delay: 0.3s"> </span>
+            <span style="--delay: 0.4s"> b</span>
+            <span style="--delay: 0.5s">r</span>
+            <span style="--delay: 0.6s">e</span>
+            <span style="--delay: 0.7s">v</span>
+            <span style="--delay: 0.8s">e</span>
+            <span style="--delay: 0.9s">.</span>
+            <span style="--delay: 1s">.</span>
+            <span style="--delay: 1.1s">.</span>
+        </div>
+    </section>
+
+<!--RODAPE-->
+
+    <footer class="rodape">
+        <h2 class="rodape__texto">Em breve mais coisas(ou não)</h2> 
+    </footer>
+</body>
+</html>
