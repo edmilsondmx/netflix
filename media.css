@@ -96,6 +96,10 @@
   .container__titulo {
     width: 75%;
     margin: 160px 0 0 10px;
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    background-color: rgba(0, 0, 0, 0.185);
+    border-radius: 7px;
   }
 
   .container__lista {
@@ -127,6 +131,7 @@
     display: inline-block;
     font-size: 18px;
     margin: 20px 0 30px 15px;
+    text-shadow: 0 0 3px black;
   }
 
   .mais__info {
