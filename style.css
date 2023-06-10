@@ -175,13 +175,20 @@ li:hover .perfil__texto {
 }
 
 /* PAGINA PRINCIPAL____________________________________________ */
-.cabecario {
+.cabecalho {
   position: fixed;
   width: 100%;
   background: linear-gradient(to bottom, black, rgba(20, 20, 20, 0.2));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.perfil{
+  color: var(--branco-principal);
+  margin: 10px;
 }
 
-.cabecario__lista {
+.cabecalho__lista {
   display: flex;
   list-style: none;
   align-items: center;
@@ -199,13 +206,13 @@ li:hover .perfil__texto {
   width: 100px;
 }
 
-.cabecario__item {
+.cabecalho__item {
   font-weight: 500;
   margin-right: 4em;
   transition: 500ms;
 }
 
-.cabecario__item:hover {
+.cabecalho__item:hover {
   color: var(--cinza-secundario);
   cursor: pointer;
 }
@@ -383,13 +390,13 @@ li:hover .perfil__texto {
 }
 /*FILME 5 -----------------------------------------------------------*/
 
-.cabecario__link {
+.cabecalho__link {
   text-decoration: none;
   color: var(--branco-terciario);
   transition: 300ms;
 }
 
-.cabecario__link:hover {
+.cabecalho__link:hover {
   color: var(--cinza-secundario);
 }
 
@@ -405,6 +412,6 @@ li:hover .perfil__texto {
   height: 50%;
 }
 
-.cabecario__filme {
+.cabecalho__filme {
   position: relative;
 }
